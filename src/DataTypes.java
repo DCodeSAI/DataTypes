@@ -3,6 +3,7 @@ public class DataTypes {
 
         int n= 1234567890;
         long nL= 1234567891234L;
+        int l= 6445543;
 
         double nD= 3.14516;
         float nf= 123.6287837327F;
@@ -14,7 +15,7 @@ public class DataTypes {
         System.out.print(salary);
         System.out.print(pension);
         System.out.print(totalSalary);
-        System.out.print("Empleado: "+ employeeName + "Salary: "+ totalSalary);
+        System.out.print("Empleado: "+ employeeName + "Salary: "+ totalSalary + "ID: " + l);
 
 
 
